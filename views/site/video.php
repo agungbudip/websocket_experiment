@@ -36,10 +36,9 @@ $this->registerCss("
         width: 70px;
     }
         ");
-$this->registerCssFile(Url::base() . '/components/slider/css/slider.css', ['depends' => [\yii\bootstrap\BootstrapAsset::className()]]);
+$this->registerCssFile(Url::base() . '/plugins/slider/css/slider.css', ['depends' => [\yii\bootstrap\BootstrapAsset::className()]]);
 $this->registerJsFile(Url::base() . '/js/socket.io-client/socket.io.js', ["depends" => \yii\web\JqueryAsset::className()]);
-$this->registerJsFile(Url::base() . '/components/slider/js/bootstrap-slider.js', ["depends" => \yii\web\JqueryAsset::className()]);
-$this->registerJsFile(Url::base() . '/components/FullscreenOverlayStyles/js/modernizr.custom.js', ["depends" => \yii\web\JqueryAsset::className()]);
+$this->registerJsFile(Url::base() . '/plugins/slider/js/bootstrap-slider.js', ["depends" => \yii\web\JqueryAsset::className()]);
 $this->registerJsFile(Url::base() . '/js/video/function.js', ["depends" => \yii\web\JqueryAsset::className()]);
 ?>
 
